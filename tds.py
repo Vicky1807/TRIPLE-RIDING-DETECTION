@@ -4,7 +4,7 @@ import os
 import time
 
 #IN PLACE OF 0 YOU CAN GIVE YOUR "VIDEO FILE" AS INPUT 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture('frame.jpg')
 
 font = cv2.FONT_HERSHEY_SIMPLEX
 face_detector = cv2.CascadeClassifier('haar_IS_haar.xml')
